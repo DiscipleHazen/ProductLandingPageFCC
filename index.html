@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta name="description" content="Product Landing Page for freeCodeCamp cert project">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="header">
+            <figure>
+                <img id="header-img" src="https://www.creativefabrica.com/wp-content/uploads/2023/01/24/Guitar-logo-vector-and-symbol-Graphics-58730896-1.jpg" alt="Site logo">
+                <p>Guitar Express</p>
+            </figure>
+            
+            <nav id="nav-bar">
+                <div><a class="nav-link" href="#FenderStrat">Fender Strat</a></div>
+                <div><a class="nav-link" href="#EpiphoneStandard">Epiphone Standard</a></div>
+                <div><a class="nav-link" href="#YahmahaStandard">Yahmaha Standard</a></div>
+            </nav>
+        </header>
+        <main>
+            <div id="email-box">
+                
+                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                    <fieldset>
+                        <label for="email">Enter your email for updates and offers</label>
+                        <input id="email" for="email" type="email" name="email" required placeholder="address@domain.com">
+                        <input for="form" type="submit" id="submit" value="Sign Up"></button>
+                    </fieldset>
+                </form> 
+            </div>
+            <video id="video" width="300px" height="200px" controls>
+               <source src="https://www.youtube.com/watch?v=hYxNC7dC5oI"/>
+            </video>
+            <section class="item" id="FenderStrat">
+                <p>Fender Strat</p>
+                <p class="price">$1200</p>
+                <img src="https://media.sweetwater.com/m/products/image/e761c784ea4CXU1QntdPHlKyU1IjAhOpkXGmpDhi.jpg?quality=85&height=1600&ha=e761c784eaa4ec49">
+                <button type="button">Buy Now</button>
+            </section>
+            <section class="item" id="EpiphoneStandard">
+                <p>Epiphone Standard</p>
+                <p class="price">$600</p>
+                <img src="https://media.sweetwater.com/m/products/image/911d26ccfcR8hduvQLIsD4VJzU4LuDG14nKBFUEz.jpg?quality=82&height=750&ha=911d26ccfcbb492c">
+                <button type="button">Buy Now</button>
+            </section>
+            <section class="item" id="YahmahaStandard">
+                <p>Yahmaha Standard</p>
+                <p class="price">$800</p>
+                <img src="https://media.sweetwater.com/m/products/image/97b0018fc0sKM8UG8bI1EHIxi9eVelYLdCQwffCO.jpg?quality=85&height=1800&ha=97b0018fc0a358bc">
+                <button type="button">Buy Now</button>
+            </section>
+        </main>
+    </body>
+</html>

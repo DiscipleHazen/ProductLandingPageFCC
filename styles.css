@@ -1,0 +1,125 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid black;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 99;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding-top: 100px;
+}
+figure {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+figure p {
+    position: relative;
+    left: -30px;
+}
+
+#header-img {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: -25px;
+}
+nav {
+    display: flex;
+}
+
+nav div {
+    padding: 10px;
+    width: 75px;
+    height: 25px;
+    background-color: rgb(160, 101, 13);
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 1px 0px 3px black;
+}
+nav div a {
+    text-decoration: none;
+    color: wheat;
+}
+#email-box {
+    width: 300px;
+}
+#email-box {
+    margin: 25px auto;
+    display: block;
+}
+video {
+    margin: 20px auto;
+    display: block;
+}
+section {
+    width: 300px;
+    height: 350px;
+    background-color: bisque;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.item {
+    scroll-margin-top: 120px;
+}
+.item p {
+    margin: 0;
+}
+.item .price {
+    color: green;
+}
+.item img {
+    height: 145px;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px black;
+}
+.item button {
+    width: 150px;
+    height: 50px;
+    background-color: beige;
+    box-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 674px) {
+    #header-img {
+        width: 100px;
+        height: 75px;
+        left: 0;
+    }
+    nav {
+        flex-direction: row;
+    }
+    nav div{
+        margin: 5px 10px;
+        height: 18px;
+    }
+    header {
+        flex-direction: column;
+    }
+    main {
+        padding-top: 125px;
+    }
+}
